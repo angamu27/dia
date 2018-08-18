@@ -1,0 +1,333 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.texto{
+  font-family: candara;
+}
+
+/* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral */
+.menu.encabezado{
+  width: 100%;
+  height: 60px;
+  margin-top: 5px;
+}
+.menu-icono{
+  height: 60px;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.menu-titulo{
+  height: 60px;
+  width: 55%;
+  float: left;
+  font-size: 30px;
+  padding: 5px;
+}
+.menu-exit{
+  height: 60px;
+  width: 20%;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  color: gray;
+}
+
+.menu.opciones{
+  width: 100%;
+}
+
+.ligas{
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+.menu-cerrarsesion{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  background-color: red;
+  color: white;
+}
+
+
+/* COMBAK: index *//* COMBAK: index *//* COMBAK: index *//* COMBAK: index *//* COMBAK: index */
+.page-content{
+      background: url("../img/IniciosesionfondoDIA.png");
+      background-size: 100%;
+      -webkit-background-size:100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+.index.header{
+  width: 100%;
+  height: 150px;
+  margin-top: 70px;
+}
+.index.top{
+  width: 90%;
+  margin: 0% 5% 0% 5%;
+  height: 130px;
+  text-align: center;
+}
+.index.body{
+  width: 100%;
+  text-align: center;
+}
+.index.usuario{
+  padding: 8px;
+  width: 70%;
+  margin: 0 auto;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #BDBDBD;
+  border-radius: 30px;
+  opacity: 0.8;
+}
+.index.contraseña{
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70%;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #BDBDBD;
+  opacity: 0.8;
+}
+.index.formulario input{
+  width: 100%;
+
+}
+.index.iniciar{
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 40%;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px grey;
+}
+.index.iniciarsesion{
+  width: 100%;
+  border: none;
+  background-color: white;
+}
+.index.recordar{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 40%;
+}
+.index.checkbox{
+  width: 15%;
+  height: 20px;
+}
+.index.recordar span{
+  font-size: 11px;
+}
+.index.olvide{
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 40%;
+}
+.index.olvideboton{
+  border: none;
+  background-color: #87C206;
+  color: blue;
+}
+
+/* COMBAK: background logo */ /* COMBAK: background logo */ /* COMBAK: background logo */
+
+.logobackground{
+  position: fixed;
+  opacity: 0.2;
+  top: 100px;
+  left: 50px;
+  z-index: -100;
+}
+
+/* COMBAK: top nav bar */ /* COMBAK: top nav bar */ /* COMBAK: top nav bar */
+.topbar{
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: black;
+  color: white;
+}
+.home.name{
+  width: 80%;
+  height: 50px;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  padding: 8px;
+}
+.home.back{
+  width: 20%;
+  float: left;
+  text-align: left;
+  padding: 5px;
+  padding-left: 17px;
+}
+.home.back i{
+  color: white;
+}
+.top.nombre{
+  width: 60%;
+  height: 50px;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 6px;
+}
+.top.menu{
+  width: 20%;
+  height: 50px;
+  float: left;
+  text-align: center;
+}
+
+.top.menu i {
+  color: white;
+}
+
+/* COMBAK: home */ /* COMBAK: home */ /* COMBAK: home */ /* COMBAK: home */
+
+
+.home.perfil {
+  width: 100%;
+  height: 100px;
+  top: 50.1px;
+  z-index: 2;
+  position: fixed;
+  background-color: #E1E1E1;
+}
+.home.foto{
+  width: 30%;
+  height: 100px;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+}
+.home.info{
+  width: 70%;
+  height: 100px;
+  float: left;
+}
+
+.home.info.texto {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.home.recientes{
+  width: 100%;
+  height: 20px;
+  top: 150px;
+  z-index: 2;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  position: fixed;
+  background-color: #3C4E6D;
+  color: white;
+}
+
+.home.pruebas{
+  width: 100%;
+  margin-top: 170px;
+  z-index: -1;
+}
+
+
+.section.all{
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* COMBAK: resultados *//* COMBAK: resultados *//* COMBAK: resultados *//* COMBAK: resultados */
+
+.resultados.porfechas{
+
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.resultados.pornombre{
+
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resultados.npacientes{
+  width: 90%;
+  font-size: 15px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-bottom: 1px solid gray; /* COMBAK: cambiar tono de gris */
+}
+
+.resultados.buscar{
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 40%;
+  height: 40px;
+  background-color: #3C4E6D;
+  border-radius: 30px;
+}
+.resultados.boton{
+  width: 100%;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #3C4E6D;
+}
+
+/* COMBAK: icons framework7 */ /* COMBAK: icons framework7 */ /* COMBAK: icons framework7 */
+@font-face {
+  font-family: 'Framework7 Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Framework7Icons-Regular.eot");
+  src: local('Framework7 Icons'),
+     local('Framework7Icons-Regular'),
+     url("../fonts/Framework7Icons-Regular.woff2") format("woff2"),
+     url("../fonts/Framework7Icons-Regular.woff") format("woff"),
+     url("../fonts/Framework7Icons-Regular.ttf") format("truetype");
+}
+
+.f7-icons, .framework7-icons {
+  font-family: 'Framework7 Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+}
