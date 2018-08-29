@@ -35,4 +35,19 @@ var routes = [
   url: 'views/contacto.html',
 },
 
+{
+  path: '/resultados_fecha/',
+  url: 'views/resultados_fecha.html',
+},
+
+{
+  path: '/resultados_nombre/',
+  url: 'views/resultados_nombre.html',
+},
+
+{
+  path: '/resultados_view/',
+  url: 'views/resultados_view.html',
+},
+
 ];

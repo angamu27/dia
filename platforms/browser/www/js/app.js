@@ -80,6 +80,14 @@ var app = {
      })
    },
 
+   BuscarFecha: function(){
+     mainView.router.navigate('/resultados_fecha/',{animate:true});
+   },
+
+   BuscarNombre: function(){
+     mainView.router.navigate('/resultados_nombre/',{animate:true});
+   },
+
 
 
 

@@ -7,6 +7,11 @@ box-sizing: border-box;
   font-family: candara;
 }
 
+.md list{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral */
 .menu.encabezado{
   width: 100%;
@@ -58,7 +63,7 @@ box-sizing: border-box;
 
 /* COMBAK: index *//* COMBAK: index *//* COMBAK: index *//* COMBAK: index *//* COMBAK: index */
 .page-content{
-      background: url("../img/IniciosesionfondoDIA.png");
+      background:  url("../img/IniciosesionfondoDIA.png");
       background-size: 100%;
       -webkit-background-size:100%;
       background-repeat: no-repeat;
@@ -296,6 +301,104 @@ box-sizing: border-box;
   color: white;
   font-weight: bold;
   background-color: #3C4E6D;
+}
+
+.rfechas.section{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.rfechas.rango {
+  width: 90%;
+  margin: 0% 5% 0% 5%;
+  text-align: center;
+  height: 40px;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.vresultados.section{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.vresultados.top{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.vresultados.info{
+  width: 100%;
+  height: 100px;
+  text-align: justify;
+}
+
+.vresultados.nombre{
+  width: 70%;
+  height: 45px;
+  float: left;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.vresultados.fecha{
+  width: 30%;
+  height: 45px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.vresultados.prueba{
+  width: 70%;
+  height: 45px;
+  float: left;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.vresultados.rrr{
+  width: 30%;
+  height: 45px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.vresultados.observaciones{
+  width: 100%;
+  float: left;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.campo {
+  width: 100%;
+  float: left;
+
+}
+.titulos{
+  font-weight: bold;
+}
+
+.vresultados.botones{
+  width: 100%;
+  float: left;
+  height: 50px;
+  text-align: center;
+}
+button {
+  background: none;
+  border: none;
+}
+
+.descargar{
+  width: 30%;
+  margin: 0% 5% 0% 5%;
+}
+.verpdf{
+  width: 30%;
+  margin: 0% 5% 0% 5%;
 }
 
 /* COMBAK: icons framework7 */ /* COMBAK: icons framework7 */ /* COMBAK: icons framework7 */
