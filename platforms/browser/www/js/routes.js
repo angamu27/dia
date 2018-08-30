@@ -50,4 +50,19 @@ var routes = [
   url: 'views/resultados_view.html',
 },
 
+{
+  path: '/configuracion_correo/',
+  url: 'views/configuracion_correo.html',
+},
+
+{
+  path: '/configuracion_notificaciones/',
+  url: 'views/configuracion_notificaciones.html',
+},
+
+{
+  path: '/configuracion_general/',
+  url: 'views/configuracion_general.html',
+},
+
 ];

@@ -11,6 +11,49 @@ box-sizing: border-box;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.section{
+  margin-top: 50px;
+}
+
+input{
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+  height: 100%;
+}
+
+.boton{
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 40%;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.titulo{
+  width: 90%;
+  margin: 0% 5% 0% 5%;
+  text-align: left;
+}
+.row{
+  padding: 8px;
+  width: 90%;
+  margin: 0 auto;
+  height: 40px;
+  background-color: #E7E7E7;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.bold{
+  font-weight: bold;
+}
 
 /* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral */
 .menu.encabezado{
@@ -108,16 +151,7 @@ box-sizing: border-box;
   width: 100%;
 
 }
-.index.iniciar{
-  padding: 8px;
-  margin: 0 auto;
-  margin-top: 60px;
-  width: 40%;
-  height: 40px;
-  background-color: white;
-  border-radius: 30px;
-  box-shadow: 2px 2px 2px grey;
-}
+
 .index.iniciarsesion{
   width: 100%;
   border: none;
@@ -276,7 +310,6 @@ box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
 }
-
 .resultados.npacientes{
   width: 90%;
   font-size: 15px;
@@ -285,7 +318,6 @@ box-sizing: border-box;
   margin-top: 35px;
   border-bottom: 1px solid gray; /* COMBAK: cambiar tono de gris */
 }
-
 .resultados.buscar{
   padding: 8px;
   margin: 0 auto;
@@ -295,19 +327,10 @@ box-sizing: border-box;
   background-color: #3C4E6D;
   border-radius: 30px;
 }
-.resultados.boton{
-  width: 100%;
-  border: none;
-  color: white;
-  font-weight: bold;
-  background-color: #3C4E6D;
-}
-
 .rfechas.section{
   width: 100%;
   margin-top: 50px;
 }
-
 .rfechas.rango {
   width: 90%;
   margin: 0% 5% 0% 5%;
@@ -339,33 +362,42 @@ box-sizing: border-box;
 
 .vresultados.nombre{
   width: 70%;
-  height: 45px;
   float: left;
   padding: 8px;
   margin-bottom: 10px;
 }
 .vresultados.fecha{
   width: 30%;
-  height: 45px;
   float: left;
   margin-bottom: 10px;
 }
 
-.vresultados.prueba{
+.vresultados.sexo{
   width: 70%;
-  height: 45px;
   float: left;
   padding: 8px;
   margin-bottom: 10px;
 }
-.vresultados.rrr{
+.vresultados.edad{
   width: 30%;
-  height: 45px;
   float: left;
   margin-bottom: 10px;
 }
 
-.vresultados.observaciones{
+.vresultados.datos{
+  width: 50%;
+  float: left;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.vresultados.diagnostico{
+  width: 50%;
+  float: left;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.vresultados.interpretacion{
   width: 100%;
   float: left;
   padding: 8px;
@@ -386,10 +418,8 @@ box-sizing: border-box;
   float: left;
   height: 50px;
   text-align: center;
-}
-button {
-  background: none;
-  border: none;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .descargar{
@@ -399,6 +429,40 @@ button {
 .verpdf{
   width: 30%;
   margin: 0% 5% 0% 5%;
+}
+/* COMBAK: configuracion_correo *//* COMBAK: configuracion_correo *//* COMBAK: configuracion_correo *//* COMBAK: configuracion_correo */
+
+.config-correo.correo{
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+}
+.config-correo.contraseña{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+/* COMBAK: config_general */ /* COMBAK: config_general */ /* COMBAK: config_general */
+.config-general{
+  margin-top: 70px;
+}
+/* COMBAK: contacto */
+
+.contacto{
+  margin-top: 70px;
+}
+.contacto-general{
+  width: 100%;
+  height: 130px;
+}
+.informacion{
+  width: 90%;
+  margin: 0% 5% 0% 5%;
+  text-align: center;
+}
+.informacion span{
+  width: 100%;
+  float: left;
 }
 
 /* COMBAK: icons framework7 */ /* COMBAK: icons framework7 */ /* COMBAK: icons framework7 */
