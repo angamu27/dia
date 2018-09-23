@@ -1,8 +1,8 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "dia",
-  "short_name": "dia",
+  "name": "DIA",
+  "short_name": "DIA",
   "version": "com.dia.app",
   "description": "Hello World sample application that responds to the deviceready event.",
   "author": "PhoneGap Team",
