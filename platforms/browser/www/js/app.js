@@ -29,7 +29,7 @@ var mainView = app7.views.create('.view-main');
 
 var app = {
 
-    hostname:"http://localhost",
+    hostname:"http://dialab.com.mx",
     username:"",
     password:"",
     asunto:"",
