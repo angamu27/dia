@@ -36,6 +36,9 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "com.dia.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.dia.app"
     }
   },
   "dependent_plugins": {
