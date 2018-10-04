@@ -72,6 +72,11 @@ button {
 .ios .card-footer a.link, .ios .card-header a.link{
   margin-left: 200px;
 }
+
+.list .item-content{
+  height: 55px;
+}
+
 /* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral *//* COMBAK: menu lateral */
 .menu.encabezado{
   width: 100%;
@@ -80,25 +85,18 @@ button {
 }
 .menu-icono{
   height: 60px;
-  width: 25%;
+  width: 40%;
   float: left;
   text-align: center;
 }
 .menu-titulo{
   height: 60px;
-  width: 55%;
+  width: 60%;
   float: left;
-  font-size: 30px;
-  padding: 5px;
-}
-.menu-exit{
-  height: 60px;
-  width: 20%;
-  float: left;
-  text-align: center;
-  font-weight: bold;
-  font-size: 35px;
-  color: gray;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 20px;
+  letter-spacing: 5px;
 }
 
 .menu.opciones{
@@ -123,7 +121,7 @@ button {
 
 /* COMBAK: index *//* COMBAK: index *//* COMBAK: index *//* COMBAK: index *//* COMBAK: index */
 .page-content{
-      background:  url("../img/IniciosesionfondoDIA.png");
+      background: url("../img/IniciosesionfondoDIA.png") ;
       background-size: 100%;
       -webkit-background-size:100%;
       background-repeat: no-repeat;

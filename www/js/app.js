@@ -308,7 +308,7 @@ else {
 
       for(x in objson.data){
 
-        $$('#home-info').html('<div class="home info texto" style="margin-top:20px;">'+objson.data[x].nombre+'</div><div class="home info texto">'+objson.data[x].correo+'</div><div class="home info texto">'+objson.data[x].celular+'</div>');
+        $$('#home-info').html('<div class="home info texto" style="margin-top:20px;">'+objson.data[x].nombre+' '+objson.data[x].apellidos+'</div><div class="home info texto">'+objson.data[x].correo+'</div><div class="home info texto">'+objson.data[x].celular+'</div>');
       }
 
     },
@@ -455,7 +455,7 @@ function bienvenida(){
   app7.preloader.hide();
     var objson = JSON.parse(data);
     for(x in objson.data){
-      $$('#bienvenida').html('<span> Hola '+objson.data[x].usuario+' </span>');
+      $$('#bienvenida').html('<span> Hola '+objson.data[x].nombre+' </span>');
     }
   },
   error:function(error){
