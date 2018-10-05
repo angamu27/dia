@@ -257,6 +257,15 @@ else {
 
   } );
 
+  $$(document).on('page:init', '.page[data-name="resultados_view"]', function(e){
+    console.log('View Home load Init!');
+    app7.panel.allowOpen = true;
+    app7.panel.enableSwipe('right');
+
+    ViewEstudios();
+
+  } );
+
 
   function getEstudios(){
 
@@ -285,6 +294,66 @@ else {
   });
   }
 
+
+  function ViewEstudios(){
+
+    app7.request({
+    url: app.hostname+'/dia/api/estudios.php',
+
+    method:'GET',
+    crossDomain: true,
+    success:function(data){
+      app7.preloader.hide();
+
+      var objson = JSON.parse(data);
+
+      for(x in objson.data){
+        $$('#view-resultados-nombre').append('<span>'+objson.data[x].paciente+'</span>');
+      }
+
+      for(x in objson.data){
+        $$('#view-resultados-general').append('<div class="vresultados nombre texto"> <div class="titulos"> No. Estudio </div> <div class="campos"> '+objson.data[x].numero_estudio+' </div>   </div><div class="vresultados nombre texto"><div class="titulos"> Nombre </div> <div class="campos"> '+objson.data[x].paciente+'</div>  </div><div class="vresultados fecha texto"> <div class="titulos"> Fecha </div>  <div class="campos"> '+objson.data[x].fecha+' </div> </div><div class="vresultados sexo texto"> <div class="titulos"> Sexo </div>  <div class="campos"> '+objson.data[x].sexo+' </div>  </div><div class="vresultados edad texto"> <div class="titulos"> Edad </div> <div class="campos"> '+objson.data[x].edad+' años </div>   </div>');
+      }
+
+      for(x in objson.data){
+        $$('#view-resultados-datosclinicos').append('<div class="campos"> '+objson.data[x].datos_clinicos+'  </div>');
+      }
+
+      for(x in objson.data){
+        $$('#view-resultados-diagnosticoclinico').append('<div class="campos"> '+objson.data[x].diagnostico_clinico+'  </div>');
+      }
+
+      for(x in objson.data){
+        $$('#view-resultados-tipodemuestra').append('<div class="campos"> '+objson.data[x].tipo_muestra+'  </div>');
+      }
+
+      for(x in objson.data){
+        $$('#view-resultados-hallazgos').append('<div class="campos">   <textarea>  '+objson.data[x].hallazgos+'</textarea>  </div>');
+      }
+
+      for(x in objson.data){
+        $$('#view-resultados-calidaddelamuestra').append('<div class="campos"> '+objson.data[x].calidad_muestra+'  </div>');
+      }
+
+      for(x in objson.data){
+        $$('#view-resultados-interpretacion').append('<div class="campos">   <textarea>  '+objson.data[x].interpretacion+'</textarea>     </div>');
+      }
+
+
+
+
+
+
+
+    },
+    error:function(error){
+      app7.preloader.hide();
+      app7.dialog.alert("Hubo un error por favor intente nuevamente");
+      console.log(data);
+
+  }
+  });
+  }
 
 
   function getInfo(){
